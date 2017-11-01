@@ -39,11 +39,11 @@ class ViewController: UIViewController {
             if let number: Int = Int(n) {
                 if checkPrimeWith(value: number){
                     statusLabel.text = "Prim"
-                    view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+                    view.backgroundColor = UIColor.green
                 }
                 else {
                     statusLabel.text = "Neprim"
-                    view.backgroundColor = UIColor.green
+                    view.backgroundColor = UIColor.red
                 }
                 
             }
