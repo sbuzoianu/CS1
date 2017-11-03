@@ -38,11 +38,11 @@ class ViewController: UIViewController {
         if let n = textField.text {
             if let number: Int = Int(n) {
                 if checkPrimeWith(value: number){
-                    statusLabel.text = "Prim"
+                    statusLabel.text = "ESTE PRIM!"
                     view.backgroundColor = UIColor.green
                 }
                 else {
-                    statusLabel.text = "Neprim"
+                    statusLabel.text = "NU ESTE PRIM!"
                     view.backgroundColor = UIColor.red
                 }
                 
